@@ -144,9 +144,6 @@ section{
 #offers-img{
     width: 40%
 }
-.order-area{
-
-}
 .from-wrapper{
    width: 600px;
    background-color: #FEEEE7;
@@ -159,17 +156,19 @@ section{
 }
 .form-items-left{
     margin-right: 10px;
+    width: 300px;
     
 }
 .form-items-right{
     margin-left:10px ;
+    width: 300px;
 }
 
 .input-label{
     display: block;
 }
 .input-element{
-    width: 90%;
+    width: 100%;
     padding: 15px 20px;
     border: 1px solid #ebebeb;
     border-radius: 5px;
@@ -180,21 +179,32 @@ section{
     box-sizing: border-box;
 }
 .order-notes-wrap{
-    width: 100%;
-    margin: 0;
+    width: 600px;
 }
-#order-notes{
+.order-notes-wrap textarea{
+    display: block;
     margin: 10px 0px 10px 0;
-    padding: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
     border: 1px solid #ebebeb;
     border-radius: 5px;
     font-size: 16px;
-    width: 100%;
+    width: 580px;
     resize: vertical;
     display: block;
-    height: 300px;
+    height: 200px;
 }
 #from-submit{
+    display: block;
     border: none;
     font-size: 16px;
+}
+.footer-area{
+    background-color: #1a0e00;
+    margin: 0;
+}
+.footer-wrap{
+    width: 100%;
+    text-align: center;
+    padding: 30px;
 }
