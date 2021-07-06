@@ -6,19 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
     <title>Food Perfect</title>
 </head>
 <body>
+
 <!-- Top area -->
     <section class="top-area">
         <div class="col-2 top-left">
             <div class="top-content-wrapper">
-                <h1>Welcome to <span class="colored-heading">Food Perfect</span>, <br> tasty food everyday!</h1>
+                <h1>Welcome to <span class="colored-heading">Food Perfect</span> <br> tasty food everyday!</h1>
                 <p>We build fresh, new menus each week from the incredible ingredients available to us in Northern California—this means sourcing locally from Farmers’ Markets around the Bay Area and other nearby food purveyors.</p>
                 <a href="https://youtube.com" target="_blank" class="link-button">Order Now!</a>
             </div>
@@ -31,7 +29,7 @@
  <!-- About area -->
     <section class="about-area">
         <div class="col-2 about-left">
-            <img src="images/female/person-image.png" alt="Chef Image" class="section-img about-img">
+            <img src="images/female/person-image.png" alt="Chef Image" id="about-img" class="section-img img-left">
         </div>
         <div class="col-2 about-right">
             <div class="about-content-wrapper">
@@ -42,6 +40,113 @@
         </div>
     </section>
 
+<!-- Recipies Area -->
+    <div class="title-subtitle">
+        <h2>My Recipies</h2>
+        <p>Get ready to have these dinner, side dish, and dessert recipes in your rotation all season long with more than 3,000 tested recipes, guides, and meal plans, drawing over 15 million readers each month from around the world.</p>
+    </div>
+    <section class="recipies-area">
+        <div class="col-3 col-recipies recipies-left">
+            <img src="images/food/project-cover-.jpg" alt="Food image" class="food-img">
+            <h3>Coco Cooks</h3>
+            <p>Oreos are just such a wonderful classic cookie we all had growing up. It really is milks favorite cookie and amazing in desserts, like my cookies and cream...</p>
+        </div>
+        <div class="col-3 col-recipies recipies-mid">
+            <img src="images/food/project-cover-2.jpg" alt="Food image" class="food-img">
+            <h3>Spicy Steaks</h3>
+            <p>Amp up your grilled steak with the robust, aromatic spices paprika, sage, cayenne and black pepper. This flavor combination adds a zesty, fiery bite...</p>
+        </div>
+        <div class="col-3 col-recipies recipies-right">
+            <img src="images/food/project-cover-1.png" alt="Food image" class="food-img">
+            <h3>Mushroom Soup</h3>
+            <p>This simple, delicious recipe is made without cream or milk. A mix of butter and flour thicken chicken stock to create a velvety soup without being too heavy... </p>
+        </div>
+    </section>
+
+<!--Social media area-->
+    <section class="social-area">
+        <div class="col-3 col-social social-left">
+            <h2>700k</h2>
+            <p>Youtube subscribers</p>
+        </div>
+        <div class="col-3 col-social social-mid">
+            <h2>2.4m</h2>
+            <p>Inatagram followers</p>
+        </div>
+        <div class="col-3 col-social social-right">
+            <h2>100k</h2>
+            <p>Dribbble Shot Likes</p>
+        </div>
+    </section>
+
+<!-- Offers area -->   
+    <section class="offers-area">
+        <div class="col-2 offers-left">
+            <h1 class="light-text">Today's <span class="colored-heading">Offers.</span></h1>
+            <p class="light-text">Order lunch, fuel for meetings or late-night deliveries to the office. Your favorite restaurants coming to a desk near you.</p>
+            <p class="light-text offers-quote">With one of the largest networks of restaurant delivery options in New York City, choose from 7847 restaurants near you delivered in under an hour! Enjoy the most delicious New York City restaurants from the comfort of your home or office. Browse by name, cuisine, or staff picks personalized to your location.</p>
+            <div class="offers-pricing">
+                <div class="col-price">
+                    <h2 class="colored-heading">$99.00</h2>
+                    <p class="light-text">25 Mins Away</p>
+                </div>
+                <div class="col-buy-btn">
+                    <a href="https://devsdude.com" target="_blank" class="link-button">Order Now</a>
+                </div>   
+            </div>
+        </div>
+        <div class="col-2 offers-right">
+            <img src="images/offers/offer-info.png" alt="Offers image" id="offers-img">
+        </div>
+    </section>
+
+<!-- Contact and order form-->
+<div class="title-subtitle">
+    <h2>Make a Reservation And <br> Enjoy <span class="colored-heading">Fresh Foods</span></h2>
+    <p>Order lunch, fuel for meetings or late-night deliveries to the office. Your favorite restaurants coming to a desk near you.</p>
+</div>
+    <section class="order-area">
+        <div class="from-wrapper">
+            <div class="form-elements-wrap">
+                <div class="form-items-left col-2">
+                    <form class="order-form">
+                        <label class="input-label">Select menu</label>
+                        <select id="select-menu"  class="input-element">
+                            <option value="burger">Burger</option>
+                            <option value="pizza">Pizza</option>
+                            <option value="chicken-fry">Chicken Fry</option>
+                            <option value="kacchi">Mutton Kacchi</option>
+                        </select>
+                        <label  class="input-label">Date</label>
+                        <input type="date" class="input-element">
+                        <label class="input-label">Full name</label>
+                        <input type="text" placeholder="Junayed Hasan" class="input-element">
+                        <label class="input-label">Full name</label>
+                        <input type="email" placeholder="junayed@junayedhasan.com" class="input-element">
+                    </form>  
+                </div>
+                <div class="form-items-right col-2">
+                    <form class="order-form">
+                        <label  class="input-label">Quantity</label>
+                        <input type="number" placeholder="1" class="input-element">
+                        <label  class="input-label">Time</label>
+                        <input type="time" class="input-element">
+                        <label  class="input-label">Phone</label>
+                        <input type="tel" class="input-element" placeholder="+880 1538231846">
+                        <label class="input-label">Address</label>
+                        <input type="text" placeholder="209/6 Av24 Birminghum, AL" class="input-element" >
+                    </form>  
+                </div>
+            </div>
+            <div class="order-notes-wrap">
+                <form class="order-form">
+                    <label class="input-label">Order note</label>
+                    <textarea id="order-notes" cols="" rows="" placeholder="Write your notes here..."></textarea>
+                    <input id="from-submit" class="link-button" type="submit" value="Make order">
+                </form>
+            </div>
+        </div>
+    </section>
     
 </body>
 </html>

@@ -10,10 +10,11 @@ h2{
     font-size: 40px;
 }
 h3{
-    font-size: 35px;
+    font-size: 30px;
 }
 p{
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 400;
 }
 section{
     display:flex;
@@ -23,6 +24,9 @@ section{
 
 .col-2{
     width: 50%
+}
+.col-3{
+    width: 33.33%
 }
 .top-left{
     display: flex;
@@ -66,11 +70,131 @@ section{
     text-align: center;
 }
 .about-right{
-    display: flex;
-    align-items: center;
+    
     padding-right: 100px;
 }
-.about-img{
+#about-img{
     vertical-align: bottom;
     width: 50%;
+}
+.food-img{
+    width: 100%;
+}
+.title-subtitle{
+    text-align: center;
+    padding:0 350px 0 350px;
+}
+.col-recipies{
+    padding: 20px;
+    margin: 30px;
+    background-color: #ffff;
+    box-shadow: 0px 0px 20px rgba(133, 133, 133, 0.233);
+    border-radius: 30px;
+}
+.social-area{
+    box-shadow: 0px 0px 20px rgba(133, 133, 133, 0.233);
+    padding: 20px;
+    margin: 0px 80px 50px 80px;
+    border-radius: 30px;
+}
+.col-social{
+    align-items: center;
+    padding-left: 130px;
+    
+}
+.col-social p{
+    margin-top: -20px;
+    
+}
+.offers-area{
+    background-image:url("images/offers/burger-offer.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 100px 0;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.offers-pricing{
+    display: flex;
+}
+.offers-pricing h2{
+    margin-bottom: -25px;
+}
+.light-text{
+    color: #ffffff;
+}
+.offers-quote{
+    border-left: 5px solid #FD4D30;
+    padding-left: 15px;
+}
+.offers-left{
+    padding-right: 100px;
+}
+.col-price{
+    width: 25%
+}
+.col-buy-btn{
+    width: 75%;
+    padding-top: 20px;
+}
+.offers-right{
+    display: flex;
+    align-items: center;
+}
+#offers-img{
+    width: 40%
+}
+.order-area{
+
+}
+.from-wrapper{
+   width: 600px;
+   background-color: #FEEEE7;
+   margin: 0 auto;
+   padding: 50px;
+   border-radius: 10px;
+}
+.form-elements-wrap{
+    display: flex;
+}
+.form-items-left{
+    margin-right: 10px;
+    
+}
+.form-items-right{
+    margin-left:10px ;
+}
+
+.input-label{
+    display: block;
+}
+.input-element{
+    width: 90%;
+    padding: 15px 20px;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    margin: 10px 0px 10px 0;
+    font-size: 16px;
+}
+.input-element, select{
+    box-sizing: border-box;
+}
+.order-notes-wrap{
+    width: 100%;
+    margin: 0;
+}
+#order-notes{
+    margin: 10px 0px 10px 0;
+    padding: 20px;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    resize: vertical;
+    display: block;
+    height: 300px;
+}
+#from-submit{
+    border: none;
+    font-size: 16px;
 }
